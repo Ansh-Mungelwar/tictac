@@ -32,3 +32,12 @@ body {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
   font-size: 8vmin;
 }
+.reset {
+  background-color: #bfc9d1;
+  color: #25343f;
+  height: 10vmin;
+  border-radius: 1rem;
+  width: 25vmin;
+  font-weight: bold;
+  font-size: 4vmin;
+}
