@@ -57,3 +57,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.msg {
+  font-size: 6vmin;
+  margin-bottom: 2vmin;
+}
