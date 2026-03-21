@@ -61,3 +61,6 @@ body {
   font-size: 6vmin;
   margin-bottom: 2vmin;
 }
+.hide {
+  display: none;
+}
