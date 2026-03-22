@@ -16,3 +16,20 @@ const winPatttern = [
   [3, 4, 5],
   [6, 7, 8],
 ];
+
+boxes.forEach((box) => {
+  box.addEventListener("click", () => {
+    if (turnO) {
+      box.innerText = "O";
+      turnO = false;
+      box.style.color = "#6b288b";
+    } else {
+      box.innerText = "X";
+      turnO = true;
+      box.style.color = "#6594B1";
+    }
+    box.disabled = true;
+    checkWinner();
+    console.log("box was clicked");
+  });
+});
