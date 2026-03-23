@@ -54,3 +54,11 @@ let checkWinner = () => {
     resetBtn.addEventListener("click", enableBtn);
   }
 };
+let enableBtn = () => {
+  for (boxe of boxes) {
+    boxe.disabled = false;
+    boxe.innerText = "";
+  }
+  msgContainer.classList.add("hide");
+  count = 0;
+};
