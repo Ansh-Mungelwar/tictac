@@ -33,3 +33,24 @@ boxes.forEach((box) => {
     console.log("box was clicked");
   });
 });
+let checkWinner = () => {
+  for (let pattern of winPatttern) {
+    if (
+      boxes[pattern[0]].innerText === boxes[pattern[1]].innerText &&
+      boxes[pattern[1]].innerText === boxes[pattern[2]].innerText &&
+      (boxes[pattern[2]].innerText === "O" ||
+        boxes[pattern[2]].innerText === "X")
+    ) {
+      msg.innerText = `Congratulations, Winner is ${boxes[pattern[1]].innerText}`;
+      msgContainer.classList.remove("hide");
+      for (boxe of boxes) {
+        boxe.disabled = true;
+      }
+    }
+  }
+  count++;
+  if (count === 9 && msg.innerText == "") {
+    msg.innerText = "No one WIN's\nDRAW";
+    resetBtn.addEventListener("click", enableBtn);
+  }
+};
