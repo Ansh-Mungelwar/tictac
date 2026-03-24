@@ -63,3 +63,4 @@ let enableBtn = () => {
   count = 0;
 };
 resetBtn.addEventListener("click", enableBtn);
+newBTN.addEventListener("click", enableBtn);
