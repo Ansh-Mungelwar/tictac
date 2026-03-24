@@ -62,3 +62,4 @@ let enableBtn = () => {
   msgContainer.classList.add("hide");
   count = 0;
 };
+resetBtn.addEventListener("click", enableBtn);
