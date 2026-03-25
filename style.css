@@ -22,10 +22,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  /* margin: 5px; */
 }
 .box {
   height: 18vmin;
   width: 18vmin;
+  /* border-radius: 1rem; */
   background-color: #ff9b51;
   color: #bfc9d1;
   border: none;

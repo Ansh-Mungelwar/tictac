@@ -3,6 +3,7 @@ let resetBtn = document.querySelector(".reset");
 let newBTN = document.querySelector(".newGame");
 let msg = document.querySelector(".msg");
 let msgContainer = document.querySelector(".msg-container");
+let count = 0;
 
 let turnO = true;
 
@@ -33,6 +34,7 @@ boxes.forEach((box) => {
     console.log("box was clicked");
   });
 });
+
 let checkWinner = () => {
   for (let pattern of winPatttern) {
     if (
@@ -54,6 +56,7 @@ let checkWinner = () => {
     resetBtn.addEventListener("click", enableBtn);
   }
 };
+
 let enableBtn = () => {
   for (boxe of boxes) {
     boxe.disabled = false;
@@ -62,5 +65,6 @@ let enableBtn = () => {
   msgContainer.classList.add("hide");
   count = 0;
 };
+
 resetBtn.addEventListener("click", enableBtn);
 newBTN.addEventListener("click", enableBtn);
