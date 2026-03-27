@@ -33,5 +33,7 @@ A simple, interactive Tic-Tac-Toe web application built using HTML, CSS, and Jav
 
 ## Project Structure
 ├── index.html   # Game board and UI elements
+
 ├── style.css    # Layout, grid styling, and animations
+
 └── app.js       # Game engine and event handling
