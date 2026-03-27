@@ -30,3 +30,8 @@ A simple, interactive Tic-Tac-Toe web application built using HTML, CSS, and Jav
 4. Continue until a player gets three in a row or the board is full (Draw).
 
 5. Click the Reset button to start a new round.
+
+## Project Structure
+├── index.html   # Game board and UI elements
+├── style.css    # Layout, grid styling, and animations
+└── app.js       # Game engine and event handling
