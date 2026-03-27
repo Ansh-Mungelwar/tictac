@@ -19,3 +19,14 @@ A simple, interactive Tic-Tac-Toe web application built using HTML, CSS, and Jav
 1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/Ansh-Mungelwar/tictac.git](https://github.com/Ansh-Mungelwar/tictac.git)
+
+## How To Play
+1. Open index.html in your web browser.
+
+2. The game starts with Player X. Click any empty square on the 3x3 grid.
+
+3. Player O follows by clicking another empty square.
+
+4. Continue until a player gets three in a row or the board is full (Draw).
+
+5. Click the Reset button to start a new round.
